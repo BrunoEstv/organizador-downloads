@@ -1,0 +1,20 @@
+import json
+
+CATEGORIAS_PADRAO = {
+    "Imagens": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".svg", ".webp"],
+    "Documentos": [".pdf", ".doc", ".docx", ".txt", ".odt", ".xls", ".xlsx", ".ppt", ".pptx"],
+    "Vídeos": [".mp4", ".avi", ".mov", ".wmv", ".flv", ".mkv", ".webm"],
+    "Áudios": [".mp3", ".wav", ".aac", ".ogg", ".flac", ".m4a"],
+    "Compactados": [".zip", ".rar", ".7z", ".tar", ".gz"],
+    "Executáveis": [".exe", ".msi", ".bat", ".sh", ".apk"],
+    "Imagens de Disco": [".iso", ".img", ".dmg"],
+    "Planilhas": [".xls", ".xlsx", ".ods", ".csv"],
+    "Outros": []
+}
+
+def carregar_categorias(caminho="categorias.json"):
+    try:
+        with open(caminho, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return CATEGORIAS_PADRAO
