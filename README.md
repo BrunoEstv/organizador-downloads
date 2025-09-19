@@ -1,32 +1,38 @@
-Organizador de Downloads
-Um script Python automatizado projetado para organizar arquivos em sua pasta de downloads, movendo-os para subdiretórios específicos baseados em seus tipos de extensão.
+# Organizador de Downloads
 
-Recursos Principais
-Automatização da Organização: Classifica arquivos de forma eficiente em categorias predefinidas como Imagens, Documentos, Áudios, Vídeos, etc.
+Este é um script em Python simples e eficiente projetado para manter a sua pasta de `Downloads` sempre organizada. Ele automatiza o processo de classificação e movimentação de arquivos, colocando-os em subpastas dedicadas a cada tipo de arquivo (imagens, documentos, vídeos, etc.).
 
-Estrutura Dinâmica: Cria automaticamente os diretórios de destino se eles ainda não existirem.
+## 🚀 Funcionalidades Principais
 
-Compatibilidade: Funciona de maneira otimizada com a maioria dos sistemas operacionais (Windows, macOS, Linux) que suportam Python 3.
+* **Automação Inteligente:** Classifica e move arquivos automaticamente para diretórios específicos, como `Imagens`, `Documentos`, `Áudios` e `Vídeos`.
+* **Organização Dinâmica:** Cria automaticamente as pastas de destino caso elas ainda não existam.
+* **Leve e Rápido:** Executa a tarefa de organização de forma eficiente, sem consumir muitos recursos do sistema.
+* **Compatibilidade:** Funciona perfeitamente em sistemas operacionais que suportam Python 3, incluindo Windows, macOS e Linux.
 
-Como Utilizar
-Pré-requisitos
-Para executar este script, você deve ter o Python 3.x instalado em seu sistema.
+## ⚙️ Como Usar
 
-Instalação
-Clone o repositório para o seu ambiente local usando o comando:
+### Pré-requisitos
 
-Bash
+Certifique-se de que você tem o **Python 3.x** instalado em sua máquina.
 
-git clone https://github.com/BrunoEstv/organizador-downloads.git
-Navegue até o diretório do projeto:
+### Instalação
 
-Bash
+1.  **Clone o repositório:**
+    Abra o seu terminal ou prompt de comando e execute o seguinte comando:
 
-cd organizador-downloads
-Execução
-Para iniciar o processo de organização, execute o script a partir da linha de comando:
+    ```bash
+    git clone [https://github.com/BrunoEstv/organizador-downloads.git](https://github.com/BrunoEstv/organizador-downloads.git)
+    ```
 
-Bash
+2.  **Acesse o diretório do projeto:**
 
-python organizador.py
-O script irá escanear sua pasta de downloads padrão e mover todos os arquivos para os respectivos subdiretórios.
+    ```bash
+    cd organizador-downloads
+    ```
+
+### Execução
+
+Para rodar o script e organizar sua pasta de downloads, basta executar o seguinte comando no terminal, estando no diretório do projeto:
+
+```bash
+python organizador.py --organizar
