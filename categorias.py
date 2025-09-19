@@ -1,14 +1,14 @@
 import json
 
 CATEGORIAS_PADRAO = {
-    "Imagens": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".svg", ".webp"],
-    "Documentos": [".pdf", ".doc", ".docx", ".txt", ".odt", ".xls", ".xlsx", ".ppt", ".pptx"],
-    "Vídeos": [".mp4", ".avi", ".mov", ".wmv", ".flv", ".mkv", ".webm"],
-    "Áudios": [".mp3", ".wav", ".aac", ".ogg", ".flac", ".m4a"],
+    "Imagens": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp"],
+    "Vídeos": [".mp4", ".mkv", ".avi", ".mov", ".wmv"],
+    "Áudios": [".mp3", ".wav", ".ogg", ".flac"],
+    "Documentos": [".pdf", ".doc", ".docx", ".ppt", ".pptx", ".odt"],
+    "Planilhas": [".xls", ".xlsx", ".csv", ".ods"],
     "Compactados": [".zip", ".rar", ".7z", ".tar", ".gz"],
-    "Executáveis": [".exe", ".msi", ".bat", ".sh", ".apk"],
-    "Imagens de Disco": [".iso", ".img", ".dmg"],
-    "Planilhas": [".xls", ".xlsx", ".ods", ".csv"],
+    "Executáveis": [".exe", ".msi", ".bat", ".sh"],
+    "Imagens de Disco": [".iso"],
     "Outros": []
 }
 

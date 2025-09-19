@@ -1,6 +1,6 @@
 {
   "Imagens": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".svg", ".webp"],
-  "Documentos": [".pdf", ".doc", ".docx", ".txt", ".odt", ".xls", ".xlsx", ".ppt", ".pptx"],
+  "Documentos": [".pdf", ".doc", ".docx", ".txt", ".odt", ".ppt", ".pptx"],
   "Vídeos": [".mp4", ".avi", ".mov", ".wmv", ".flv", ".mkv", ".webm"],
   "Áudios": [".mp3", ".wav", ".aac", ".ogg", ".flac", ".m4a"],
   "Compactados": [".zip", ".rar", ".7z", ".tar", ".gz"],
@@ -9,3 +9,4 @@
   "Planilhas": [".xls", ".xlsx", ".ods", ".csv"],
   "Outros": []
 }
+
